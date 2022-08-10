@@ -1,0 +1,52 @@
+body{
+     background-image: linear-gradient( 109.6deg , rgb(37, 5, 59) 11.2% , rgb(130, 8, 211)91.1%);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     min-height: 100vh;
+} 
+input{
+     margin-bottom: 20px;
+     background-color: rgb(59 7 96);
+     border: none;
+     outline: none;
+     text-align: center;
+     border-radius: 5px;
+}
+.cardin{
+     display: flex;
+     background-color: rgb(32, 9, 75);
+     min-height: 250px;
+    width: 825px;
+     align-items: center;
+     border-radius: 25px;
+     background-image: linear-gradient( 109.6deg ,rgb(60 0 99) 11.2% , rgb(58, 7, 92) 91.1%);
+}
+.cardin .avatar img{
+     height: 175px;
+     border-radius: 50%;
+     margin: 50px;
+     border: 7px solid rgb(65, 45, 102);;
+}
+.info{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 35px;
+     margin-right: 40px;
+     margin-left: -92px;
+     
+}
+.info li{
+     list-style: none;
+}
+#repos{
+     display: contents;
+}
+.repo{
+     margin: 0px 20px 0px 0px;
+     padding: 5px;
+     font-size: .8rem;
+     background-color: rgb(78, 14, 97);
+     color: antiquewhite;
+}
